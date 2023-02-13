@@ -45,17 +45,34 @@
                                             </textField>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="FU6-SS-Rge">
-                                        <rect key="frame" x="209.33333333333334" y="41" width="123.66666666666666" height="31"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="EA4-0f-UJC">
+                                        <rect key="frame" x="130.33333333333337" y="41" width="202.66666666666663" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Euro" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOQ-ei-sgE" userLabel="Currency 1">
-                                                <rect key="frame" x="0.0" y="0.0" width="34.666666666666664" height="31"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mexican Pesos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtp-nX-Q2z" userLabel="Currency 4">
+                                                <rect key="frame" x="0.0" y="0.0" width="113.66666666666667" height="31"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WQp-Wu-dub">
+                                                <rect key="frame" x="153.66666666666666" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="currencyFour:" destination="BYZ-38-t0r" eventType="valueChanged" id="dlZ-wc-5Rc"/>
+                                                </connections>
+                                            </switch>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="FU6-SS-Rge">
+                                        <rect key="frame" x="124.33333333333336" y="82" width="208.66666666666663" height="31"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="European Euros" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOQ-ei-sgE" userLabel="Currency 1">
+                                                <rect key="frame" x="0.0" y="0.0" width="119.66666666666667" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37O-xR-vjA">
-                                                <rect key="frame" x="74.666666666666657" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="159.66666666666666" y="0.0" width="51" height="31"/>
                                                 <connections>
                                                     <action selector="currencyOne:" destination="BYZ-38-t0r" eventType="valueChanged" id="l6R-MJ-vCJ"/>
                                                 </connections>
@@ -63,7 +80,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="UeS-E5-c0l">
-                                        <rect key="frame" x="153" y="82" width="180" height="31"/>
+                                        <rect key="frame" x="153" y="123" width="180" height="31"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swiss Franc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsA-W6-oV1" userLabel="Currency 2">
                                                 <rect key="frame" x="0.0" y="0.0" width="91" height="31"/>
@@ -80,7 +97,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="no8-vD-Poj">
-                                        <rect key="frame" x="124" y="123" width="209" height="31"/>
+                                        <rect key="frame" x="124" y="164" width="209" height="31"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Canadian Dollar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psH-aA-rGp" userLabel="Currency 3">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="31"/>
@@ -92,23 +109,6 @@
                                                 <rect key="frame" x="160" y="0.0" width="51" height="31"/>
                                                 <connections>
                                                     <action selector="currencyThree:" destination="BYZ-38-t0r" eventType="valueChanged" id="gqU-vS-5GH"/>
-                                                </connections>
-                                            </switch>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="EA4-0f-UJC">
-                                        <rect key="frame" x="206.33333333333334" y="164" width="126.66666666666666" height="31"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtp-nX-Q2z" userLabel="Currency 4">
-                                                <rect key="frame" x="0.0" y="0.0" width="37.666666666666664" height="31"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WQp-Wu-dub">
-                                                <rect key="frame" x="77.666666666666657" y="0.0" width="51" height="31"/>
-                                                <connections>
-                                                    <action selector="currencyFour:" destination="BYZ-38-t0r" eventType="valueChanged" id="dlZ-wc-5Rc"/>
                                                 </connections>
                                             </switch>
                                         </subviews>

@@ -41,13 +41,13 @@ class OutputView: UIViewController {
                         pesoText.isHidden = true
                         
                     } else {
-                        pesoText.text = "Pesos: \(pesoConverted)"
+                        pesoText.text = "Mexican Pesos: \(pesoConverted)"
                     }
                     
                     if euroConverted == "0" {
                         euroText.isHidden = true
                     } else {
-                        euroText.text = "Euros: \(euroConverted)"
+                        euroText.text = "European Euros: \(euroConverted)"
                     }
                     
                     if francConverted == "0" {
