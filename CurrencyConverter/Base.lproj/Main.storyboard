@@ -54,10 +54,10 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WQp-Wu-dub">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hiC-dB-0r1">
                                                 <rect key="frame" x="153.66666666666666" y="0.0" width="51" height="31"/>
                                                 <connections>
-                                                    <action selector="currencyFour:" destination="BYZ-38-t0r" eventType="valueChanged" id="dlZ-wc-5Rc"/>
+                                                    <action selector="currencyTwo:" destination="BYZ-38-t0r" eventType="valueChanged" id="Rfl-2l-X8M"/>
                                                 </connections>
                                             </switch>
                                         </subviews>
@@ -71,10 +71,10 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37O-xR-vjA">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVD-9h-tbB">
                                                 <rect key="frame" x="159.66666666666666" y="0.0" width="51" height="31"/>
                                                 <connections>
-                                                    <action selector="currencyOne:" destination="BYZ-38-t0r" eventType="valueChanged" id="l6R-MJ-vCJ"/>
+                                                    <action selector="currencyThree:" destination="BYZ-38-t0r" eventType="valueChanged" id="gqU-vS-5GH"/>
                                                 </connections>
                                             </switch>
                                         </subviews>
@@ -88,10 +88,10 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hiC-dB-0r1">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WQp-Wu-dub">
                                                 <rect key="frame" x="131" y="0.0" width="51" height="31"/>
                                                 <connections>
-                                                    <action selector="currencyTwo:" destination="BYZ-38-t0r" eventType="valueChanged" id="Rfl-2l-X8M"/>
+                                                    <action selector="currencyFour:" destination="BYZ-38-t0r" eventType="valueChanged" id="dlZ-wc-5Rc"/>
                                                 </connections>
                                             </switch>
                                         </subviews>
@@ -105,10 +105,10 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVD-9h-tbB">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37O-xR-vjA">
                                                 <rect key="frame" x="160" y="0.0" width="51" height="31"/>
                                                 <connections>
-                                                    <action selector="currencyThree:" destination="BYZ-38-t0r" eventType="valueChanged" id="gqU-vS-5GH"/>
+                                                    <action selector="currencyOne:" destination="BYZ-38-t0r" eventType="valueChanged" id="l6R-MJ-vCJ"/>
                                                 </connections>
                                             </switch>
                                         </subviews>
